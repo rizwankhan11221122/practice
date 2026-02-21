@@ -10,7 +10,7 @@ pipeline {
                steps {
                    echo"Build the application..."
                    sh 'echo All tests passed!'
-                   sh 'git log -1 --oneline
+                   sh 'git log -1 --oneline'
                }
               } 
 
